@@ -53,4 +53,4 @@ z = command (111 up, 110 down, 001 stop)
 ```
 if there is no response, you should record the signal of your sender with e.g. `aircontrol -d scan.hex -s 5000` and search for a _long_ HIGH Signal (01 asciicode) followed by a regular signal with equal pulselength (changing Highs and lows) and try to decode it from Manchester to data.
 
-good look, its funny :-)
+good luck, its funny :-)
