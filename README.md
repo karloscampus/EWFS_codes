@@ -9,7 +9,7 @@ results als commited in aircontrol.conf.
 
 you can test it with airControl (https://github.com/rfkd/aircontrol) installed on Rasbperry Pi and e.g. DEBO 433 RX/TX install on GPIO Pin 17 and 27.  
 
-
+```
 git clone https://github.com/karloscampus/EWFS_codes
 
 cd EWFS
@@ -29,9 +29,11 @@ aircontrol -c ./aircontrol.conf -t warema_up2
 aircontrol -c ./aircontrol.conf -t warema_up3
 aircontrol -c ./aircontrol.conf -t warema_up4
 aircontrol -c ./aircontrol.conf -t warema_up5
-
+```
 # Background
 Encoded with Manchester.
+
+```
 warema_up: 
 {
 airCommand = "S01110100111111" //command
@@ -39,6 +41,7 @@ airCommand = "S01110100111111" //command
 "S001010100" // Device
 "S";
 };
+```
 
 where 
 Sxx110100yyyzzz
