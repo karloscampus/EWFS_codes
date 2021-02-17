@@ -10,7 +10,7 @@ results als commited in aircontrol.conf.
 you can test it with airControl (https://github.com/rfkd/aircontrol) installed on Rasbperry Pi (4) and e.g. DEBO 433 RX/TX installed on GPIO Pin 17 and 27.  
 
 ```
-git clone https://github.com/karloscampus/EWFS_codes
+git clone https://github.com/karloscampus/EWFS_codes.git
 
 cd EWFS_codes
 
