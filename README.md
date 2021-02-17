@@ -46,9 +46,10 @@ airCommand = "S01110100111111" //command
 where 
 Sxx110100yyyzzz
 
+```
 x = some kind of crc (01 for up and down, 00 for stop)
 y = channel (0-7), negated bits (111 for 0 and 000 for 7)
 z = command (111 up, 110 down, 001 stop)
-
+```
 if there is no response, you should record the signal of your sender with e.g. `aircontrol -d scan.hex -s 5000` and search for a _long_ HIGH Signal (01 asciicode) followed by a regular signal with equal pulselength (changing Highs and lows) and try to decode it from Manchester to data.
 good look, its funny :-)
